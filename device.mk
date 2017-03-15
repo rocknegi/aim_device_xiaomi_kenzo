@@ -26,8 +26,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths_wcd9326.xml
 
 # Alipay / WeChat
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manage
+#PRODUCT_BOOT_JARS += \
+ #   org.ifaa.android.manage
 
 # init.d
 # BSOD Killer

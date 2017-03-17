@@ -35,16 +35,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
 
 
-# Flashlight
-PRODUCT_PACKAGES += \
-    Flashlight
-
 
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8952 \
     libqomx_core \
     libmm-qcamera
+
 
 
 # Input

@@ -23,8 +23,10 @@ PRODUCT_COPY_FILES := device/xiaomi/kenzo/configs/apns-full-conf.xml:system/etc/
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+# Inherit some common aim stuff.
+$(call inherit-product, vendor/aim/config/common.mk)
 
-PRODUCT_NAME := aosp_kenzo
+PRODUCT_NAME := aim_kenzo
 PRODUCT_DEVICE := kenzo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
